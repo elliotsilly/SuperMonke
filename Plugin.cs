@@ -4,9 +4,11 @@ using HarmonyLib;
 using BepInEx;
 using Utilla;
 using Utilla.Attributes;
+using System.ComponentModel;
 
 namespace SuperMonke
 {
+    [Description("HauntedModMenu")]
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
     [BepInDependency("org.legoandmars.gorillatag.utilla", "1.6.3")]
     [ModdedGamemode]
