@@ -1,10 +1,9 @@
-﻿using System;
+using System;
 using System.Reflection;
-
 using HarmonyLib;
 using BepInEx;
-
 using Utilla;
+using Utilla.Attributes;
 
 namespace SuperMonke
 {
